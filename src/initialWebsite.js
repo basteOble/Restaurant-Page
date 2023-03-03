@@ -10,7 +10,7 @@ function createHeader() {
     
     title.setAttribute('class', 'title')
     
-    img.src = '../src/img/3starandthesun.png'
+    img.src = './img/3starandthesun.png'
     title1.textContent = 'Kabayan';
     title2.textContent = 'FOODS';
 

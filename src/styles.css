@@ -14,7 +14,7 @@ body {
     height: 100vh;
     width: 100vw;
     color: var(--font-color);
-    background-image: url('./img/backgroundImg.jpg');
+    background-image: url('../dist/img/backgroundImg.jpg');
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
@@ -206,6 +206,7 @@ main {
     border: none;
     border-radius: 5px;
     border-bottom: 2px solid var(--border-color);
+    outline: none;
 }
 
 .contact button {

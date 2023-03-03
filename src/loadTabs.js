@@ -35,7 +35,7 @@ function loadHome() {
 
     const open = document.createElement('div');
     const timeImg = document.createElement('img');
-    timeImg.src = '../src/img/clock.png'
+    timeImg.src = './img/clock.png';
     const hours = document.createElement('div');
     open.append(timeImg, hours)
     for (let times of home.time){
@@ -47,7 +47,7 @@ function loadHome() {
 
     const location = document.createElement('div')
     const pin = document.createElement('img');
-    pin.src = '../src/img/pin.png';
+    pin.src = './img/pin.png';
     const address = document.createElement('p');
     address.textContent = home.location;
     location.append(pin, address)
